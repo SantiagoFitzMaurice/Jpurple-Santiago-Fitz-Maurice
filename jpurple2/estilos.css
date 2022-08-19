@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    height: 80px;
+    width: 100%;
+    background-color: blueviolet;
+    font-size: 60px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 10px solid palevioletred;
+
+}
+.barra{
+    float: left;
+    background-color: darkslateblue;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.barra li{
+    margin: 5;
+    padding: 10;
+    list-style: none;
+    display: inline-block;
+    border-width: 3px;
+    border-color: black;
+    
+}
+.barra a{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkmagenta;
+    color: gold;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+h1{
+    background-color: darkorchid;
+}
+ol{
+    background-color: darkorchid;
+
+}
+footer{
+    background-color: rebeccapurple;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+li{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    background-color: darkorchid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h3{
+    background-color: darkorchid;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    background-color: darkorchid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    background-color: darkorchid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
