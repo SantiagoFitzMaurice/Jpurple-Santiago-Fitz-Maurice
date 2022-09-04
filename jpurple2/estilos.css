@@ -1,79 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.encabezado{
-    height: 80px;
-    width: 100%;
-    background-color: blueviolet;
-    font-size: 60px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 10px solid palevioletred;
-
-}
-.barra{
-    float: left;
-    background-color: darkslateblue;
-    width: 100%;
-    height: 50px;
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.barra li{
-    margin: 5;
-    padding: 10;
-    list-style: none;
-    display: inline-block;
-    border-width: 3px;
-    border-color: black;
-    
+.encabezado {
+  height: 80px;
+  width: 100%;
+  background-color: blueviolet;
+  font-size: 60px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 10px solid palevioletred;
 }
-.barra a{
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    background-color: darkmagenta;
-    color: gold;
-    border: 5px solid black;
-    border-radius: 15px;
-}
-h1{
-    background-color: darkorchid;
-}
-ol{
-    background-color: darkorchid;
 
+.barra {
+  float: left;
+  background-color: darkslateblue;
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-footer{
-    background-color: rebeccapurple;
-    text-align: center;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+.barra li {
+  margin: 5;
+  padding: 10;
+  list-style: none;
+  display: inline-block;
+  border-width: 3px;
+  border-color: black;
 }
-li{
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.barra a {
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: darkmagenta;
+  color: gold;
+  border: 5px solid black;
+  border-radius: 15px;
 }
-h2{
-    background-color: darkorchid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
+h1 {
+  background-color: darkorchid;
 }
-h3{
-    background-color: darkorchid;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+body {
+  background-image: linear-gradient(to right top, #220369, #240861, #250d59, #251051, #251349, #2a1650, #301857, #361b5e, #461e76, #581e8e, #6d1ca6, #8315be);
 }
-ul{
-    background-color: darkorchid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+footer {
+  background-color: rebeccapurple;
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-form{
-    background-color: darkorchid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+li {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h2 {
+  background-color: darkorchid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}/*# sourceMappingURL=estilos.css.map */

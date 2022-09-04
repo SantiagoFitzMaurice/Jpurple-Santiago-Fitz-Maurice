@@ -48,8 +48,8 @@ $verdana: Verdana, Geneva, Tahoma, sans-serif;
 h1{
     background-color: $violeta3;
 }
-ol{
-    background-color: $violeta3;
+body{
+    background-image: linear-gradient(to right top, #220369, #240861, #250d59, #251051, #251349, #2a1650, #301857, #361b5e, #461e76, #581e8e, #6d1ca6, #8315be);
 
 }
 footer{
@@ -69,15 +69,15 @@ h2{
     
 }
 h3{
-    background-color: $violeta3;
+    
     font-size: 30px;
     font-family: $verdana;
 }
 ul{
-    background-color: $violeta3;
+    
     font-family: $verdana;
 }
 form{
-    background-color: $violeta3;
+    
     font-family: $verdana;
 }
