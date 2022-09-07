@@ -33,6 +33,7 @@
 }
 
 .barra a {
+  display: grid;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
@@ -72,10 +73,11 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ul {
+ul, form {
+  background-color: #EB7959;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-form {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.encabezado {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }/*# sourceMappingURL=estilos.css.map */

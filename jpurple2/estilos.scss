@@ -16,6 +16,7 @@ $verdana: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 10px solid palevioletred;
 
+
 }
 .barra{
     float: left;
@@ -37,6 +38,8 @@ $verdana: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 .barra a{
+    display: grid;
+    
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -74,10 +77,17 @@ h3{
     font-family: $verdana;
 }
 ul{
-    
+    background-color: #EB7959;
     font-family: $verdana;
 }
 form{
+    @extend ul;
+
+}
+@mixin cambiofont {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
-    font-family: $verdana;
+}
+.encabezado{
+    @include cambiofont()
 }
