@@ -14,7 +14,10 @@ $verdana: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 10px solid palevioletred;
+    border: 10px solid blue;
+    padding-bottom: 10px;
+    box-sizing: content-box;
+
 
 
 }
@@ -50,6 +53,7 @@ $verdana: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     background-color: $violeta3;
+    color: #FFC75F;
 }
 body{
     background-image: linear-gradient(to right top, #220369, #240861, #250d59, #251051, #251349, #2a1650, #301857, #361b5e, #461e76, #581e8e, #6d1ca6, #8315be);
@@ -60,34 +64,32 @@ footer{
     text-align: center;
     font-size: 30px;
     font-family: $verdana;
+    color: #FFC75F;
 
 }
 li{
     font-size: 25px;
     font-family: $verdana;
+    color:#FFC75F;
 }
 h2{
     background-color: $violeta3;
     font-family: $verdana;
+    color: #FFC75F;
     
 }
 h3{
     
     font-size: 30px;
     font-family: $verdana;
+    color: #FFC75F;
 }
 ul{
-    background-color: #EB7959;
+    background-color: $violeta3;
     font-family: $verdana;
 }
 form{
     @extend ul;
 
 }
-@mixin cambiofont {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-.encabezado{
-    @include cambiofont()
-}
+

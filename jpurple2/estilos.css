@@ -11,7 +11,9 @@
   font-size: 60px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 10px solid palevioletred;
+  border: 10px solid blue;
+  padding-bottom: 10px;
+  box-sizing: content-box;
 }
 
 .barra {
@@ -45,6 +47,7 @@
 
 h1 {
   background-color: darkorchid;
+  color: #FFC75F;
 }
 
 body {
@@ -56,28 +59,28 @@ footer {
   text-align: center;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #FFC75F;
 }
 
 li {
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #FFC75F;
 }
 
 h2 {
   background-color: darkorchid;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #FFC75F;
 }
 
 h3 {
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #FFC75F;
 }
 
 ul, form {
-  background-color: #EB7959;
+  background-color: darkorchid;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.encabezado {
-  font-family: Georgia, "Times New Roman", Times, serif;
 }/*# sourceMappingURL=estilos.css.map */
